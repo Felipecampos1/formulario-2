@@ -87,7 +87,7 @@ input::placeholder {
     background-position: right;
 }
 
-@media only screen and (max-width: 723px){
+@media only screen and (max-width: 900px){
     .login img {
         width: 90px;
     }
@@ -98,7 +98,13 @@ input::placeholder {
         justify-content: center;
         align-items: center;
     }
+
+    .login {
+        height: 55%;
+        width: 70%;
+    }
 }
+
 
 @media only screen and (min-width: 3000px){
     .login img {
